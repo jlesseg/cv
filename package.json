@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "gsap": "^3.7.1",
+    "image-preload": "^1.0.6",
     "imagesloaded": "^4.1.4",
     "split-type": "^0.2.5"
   }
