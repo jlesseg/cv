@@ -19,7 +19,7 @@ body {
 	--font-size-medium: 1.25rem;
 	--font-size-small: 1rem;
 	--color-menu: #000;
-	--color-menu-hover: #e93f33;
+	--color-menu-hover: #AFB592;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
@@ -151,6 +151,10 @@ main {
 	will-change: transform;
 }
 
+.dn{
+    display:none;
+}
+
 .oh {
 	overflow: hidden;
 }
@@ -223,10 +227,6 @@ main {
 	will-change: transform;
 }
 
-.deco__img-wrap--upper {
-	height: 5vh;
-}
-
 .deco__img-wrap--lower {
 	height: 25vh;
 }
@@ -241,6 +241,27 @@ main {
 .deco__img--lower {
 	background-position: 50% -5vh;
 }
+
+.slideshow{
+    height:600px;
+    width:900px;
+    cursor:pointer;
+    position:relative;
+}
+
+.slideshow img{
+    position:absolute;
+    top:0;
+    left:0;
+    height:600px;
+    width:900px;
+    z-index:0;
+}
+
+.slideshow img:first-child{
+    z-index:1;
+}
+
 
 .menu-link {
 	align-self: start;
