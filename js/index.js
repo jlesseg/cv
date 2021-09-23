@@ -1,3 +1,4 @@
+// DOM elements:
 import { preloadImages } from './utils';
 import { Menu } from './menu';
 import { TextReveal } from './textReveal';
@@ -5,7 +6,6 @@ import { TextLinesReveal } from './textLinesReveal';
 import { ImgReveal } from './imgReveal';
 import { gsap } from 'gsap';
 
-// DOM elements:
 let DOM = {
     frame: document.querySelector('.frame')
 };
