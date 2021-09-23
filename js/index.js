@@ -4,7 +4,6 @@ import { Menu } from './menu';
 import { TextReveal } from './textReveal';
 import { TextLinesReveal } from './textLinesReveal';
 import { ImgReveal } from './imgReveal';
-import { gsap } from 'gsap';
 
 let DOM = {
     frame: document.querySelector('.frame')
